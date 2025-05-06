@@ -16,7 +16,6 @@ int main() {
     std::cout << "Infix display: ";
     root->display_infix();
     std::cout << std::endl;
-
     try {
         std::cout << "Minimum value in the tree: " << root->min(root) << std::endl;
         std::cout << "Maximum value in the tree: " << root->max(root) << std::endl;
